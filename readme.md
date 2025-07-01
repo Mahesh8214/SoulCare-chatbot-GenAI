@@ -34,34 +34,34 @@ Welcome to **SoulCare**, a GenAI-powered chatbot designed to offer **empathetic 
 ## 📁 Folder Structure
 
 ```
-
-final\_project/
-├── chatbot/                 # Core logic (LLM, prompts, chains)
+final_project/
+├── chatbot/                  # Core logic (LLM setup, prompts, chains)
 │   ├── cores.py
 │   ├── prompts.py
-│   └── **init**.py
+│   └── __init__.py
 │
-├── chroma\_db/              # Vector database (auto-generated)
+├── chroma_db/               # Auto-generated vector database (Chroma)
 │   ├── chroma.sqlite3
-│   └── ...
+│   └── ...                  # Other DB-related files
 │
-├── data/                   # PDF files for training
+├── data/                    # PDF files for embedding/training
 │   ├── BK03712-Art-of-Empathy-web-sample.pdf
-│   ├── Daniel Kahneman-Thinking, Fast and Slow\.pdf
-│   └── mental\_health\_Document.pdf
+│   ├── Daniel Kahneman-Thinking, Fast and Slow.pdf
+│   └── mental_health_Document.pdf
 │
-├── notebook/               # EDA/experiments
+├── notebook/                # Exploratory notebooks (EDA)
 │   └── EDA.ipynb
 │
-├── src/                    # Entry point and config
+├── src/                     # Application entry point and configuration
 │   ├── app.py
 │   ├── config.py
-│   └── **init**.py
+│   └── __init__.py
 │
-├── workflow\.png            # Flowchart of system architecture
-├── requirements.txt        # Dependencies
-├── .gitignore              # Git exclusions
-└── README.md               # Project overview
+├── workflow.png             # Visual flowchart of system architecture
+├── requirements.txt         # Python dependencies
+├── .gitignore               # Files/folders excluded from Git tracking
+└── README.md                # Project documentation (you're reading it!)
+
 
 ````
 
