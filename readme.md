@@ -200,11 +200,6 @@ src/config.py
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License.
-Made with 💚 by **Mahesh Singh**
-
 ---
 
 ## 🙌 Acknowledgments
