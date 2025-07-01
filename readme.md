@@ -1,5 +1,4 @@
 
-
 * Your **Gradio-based SoulCare chatbot**
 * **Modular Python setup** inside `src/` and `chatbot/`
 * **Data** in `data/`
@@ -32,38 +31,35 @@ Welcome to **SoulCare**, a GenAI-powered chatbot designed to offer **empathetic 
 ---
 
 ## 📁 Folder Structure
-
-```
+```bash
 final_project/
 ├── chatbot/                  # Core logic (LLM setup, prompts, chains)
 │   ├── cores.py
 │   ├── prompts.py
 │   └── __init__.py
 │
-├── chroma_db/               # Auto-generated vector database (Chroma)
+├── chroma_db/                # Auto-generated vector database (Chroma)
 │   ├── chroma.sqlite3
-│   └── ...                  # Other DB-related files
+│   └── ...                   # Other DB-related files
 │
-├── data/                    # PDF files for embedding/training
+├── data/                     # PDF files for embedding/training
 │   ├── BK03712-Art-of-Empathy-web-sample.pdf
 │   ├── Daniel Kahneman-Thinking, Fast and Slow.pdf
 │   └── mental_health_Document.pdf
 │
-├── notebook/                # Exploratory notebooks (EDA)
+├── notebook/                 # Exploratory notebooks (EDA)
 │   └── EDA.ipynb
 │
-├── src/                     # Application entry point and configuration
+├── src/                      # Application entry point and configuration
 │   ├── app.py
 │   ├── config.py
 │   └── __init__.py
 │
-├── workflow.png             # Visual flowchart of system architecture
-├── requirements.txt         # Python dependencies
-├── .gitignore               # Files/folders excluded from Git tracking
-└── README.md                # Project documentation (you're reading it!)
-
-
-````
+├── workflow.png              # Visual flowchart of system architecture
+├── requirements.txt          # Python dependencies
+├── .gitignore                # Files/folders excluded from Git tracking
+└── README.md                 # Project documentation (you’re reading it!)
+```
 
 ---
 
