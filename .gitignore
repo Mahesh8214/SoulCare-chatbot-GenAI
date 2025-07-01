@@ -1,0 +1,23 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env/
+medi_bot/
+
+# VS Code config
+.vscode/
+
+# Logs
+*.log
+
+# LangChain / ChromaDB vector store
+chroma_db/
+
+
+
+# OS-generated files
+.DS_Store
+Thumbs.db
